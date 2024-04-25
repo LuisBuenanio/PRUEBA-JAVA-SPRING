@@ -1,2 +1,13 @@
-package com.pruebatecnica.backend.User;public class UserResponse {
+package com.pruebatecnica.backend.User;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class UserResponse {
+    String message;
 }

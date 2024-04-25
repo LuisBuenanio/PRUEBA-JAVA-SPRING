@@ -1,2 +1,6 @@
-package com.pruebatecnica.backend.User;public class Role {
+package com.pruebatecnica.backend.User;
+
+public enum Role {
+    ADMIN,
+    USER
 }

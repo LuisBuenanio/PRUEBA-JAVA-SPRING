@@ -1,0 +1,45 @@
+<app-nav></app-nav>
+<p *ngIf="!userLoginOn" class="alert alert-danger">Usuario NO autenticado</p>
+<p *ngIf="userLoginOn" class="alert alert-success">Usuario Autenticado</p>
+
+<div class="card ">
+    <div class="card-header">
+        BIENVENIDO 
+    </div>
+    <div class="card-body m-0">
+        <app-personal-details></app-personal-details>
+    </div>
+
+</div>
+<div class="card">
+    <div class="card-header">
+        Última Sesión Activa
+    </div>
+    <div class="card-body m-0">
+
+    </div>
+</div>
+<div class="card">
+    <div class="card-header">
+        Intentos de Inicio de Sesión
+    </div>
+    <div class="card-body m-0">
+
+    </div>
+
+</div>
+
+<div class="card">
+    <div class="card-header">
+        Sesión Iniciada a las:
+    </div>
+    <div class="card-body m-0">
+
+    </div>
+    <div class="card-header">
+        Sesión Terminada a las:
+    </div>
+    <div class="card-body m-0">
+
+    </div>
+</div>
