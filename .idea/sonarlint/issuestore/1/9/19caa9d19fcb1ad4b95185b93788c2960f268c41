@@ -1,0 +1,6 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œì£µ
+n	java:S116-"YRename this field "active_session" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÎˆÿ
+t	java:S116."ZRename this field "failed_attempts" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŽÄ†«üÿÿÿÿ
+r	java:S1160"XRename this field "date_creation" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿä ™ÿÿÿÿÿ
+k	java:S1161"VRename this field "date_update" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šå‹ì
